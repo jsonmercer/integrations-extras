@@ -22,7 +22,7 @@ the full details of every affected user session without having to manually repro
 1. Create a New Dashboard in Datadog. Select the Embrace widget to display Embrace data with crash or networking metrics.
 1. Click into “Details” to dive deeper into Embrace from Datadog.
 
-## Troubleshooting
+## Support
 For support or questions, contact [Datadog support][3].
 
 
