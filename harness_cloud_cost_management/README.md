@@ -33,7 +33,7 @@ The Ambassador check does not include any events.
 
 The Ambassador check does not include any service checks.
 
-## Troubleshooting
+## Support
 
 Need help? Contact [Datadog support][2].
 
