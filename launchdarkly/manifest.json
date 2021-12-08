@@ -7,7 +7,8 @@
     "Supported OS::Mac OS",
     "Supported OS::Windows",
     "Category::Notification",
-    "Offering::UI Extension"
+    "Offering::UI Extension",
+    "Offering::Integration"
   ],
   "display_on_public_website": true,
   "tile": {
@@ -17,6 +18,12 @@
     "description": "Control your feature releases and infrastructure changes with confidence.",
     "title": "LaunchDarkly",
     "media": [
+      {
+        "media_type": "video",
+        "caption": "A brief overview of LaunchDarkly.",
+        "image_url": "images/video-thumbnail.png",
+        "vimeo_id": 637675972
+      },
       {
         "media_type": "image",
         "caption": "The LaunchDarkly dashboard configured with the LaunchDarkly flags widget and events integration.",
@@ -51,9 +58,9 @@
       "service_checks": {
         "metadata_path": "assets/service_checks.json"
       }
+    },
+    "dashboards": {
+      "launchdarkly": "dashboards/launchdarkly.json"
     }
-  },
-  "dashboards": {
-    "launchdarkly": "dashboards/launchdarkly.json"
   }
 }

@@ -11,7 +11,7 @@ This integration leverages Auth0's Log Streaming to send logs directly to Datado
 
 #### Correlate activity with identity data to surface trends
 
-Identity data provides crucial insight into who performed what activity. This allows teams to better understand user behaviour across their system.
+Identity data provides crucial insight into who performed what activity. This allows teams to better understand user behavior across their system.
 
 #### Decisions about system architecture and development
 
@@ -42,7 +42,7 @@ All configuration happens on the [Auth0 Dashboard][2].
 	
 6. Click Save.
 
-When Auth0 writes the next tenant log, you'll receive a copy of that log event in Datadog with the source and service set to `auth0`.
+When Auth0 writes the next tenant log, you receive a copy of that log event in Datadog with the source and service set to `auth0`.
 
 ### Validation
 
@@ -53,8 +53,9 @@ View logs in Datadog:
 
 ## Data Collected
 
-### Log Collection
-Auth0 logs are collected and sent to Datadog. The types of logs that could be returned are outlined [here][5].
+### Log collection
+
+Auth0 logs are collected and sent to Datadog. The types of logs that could be returned are outlined in the [Log Event Type Codes][5].
 
 ### Metrics
 
@@ -75,6 +76,6 @@ Read more about this integration in our [blog post][6].
 
 [1]: https://docs.datadoghq.com/help/
 [2]: https://manage.auth0.com
-[4]: https://app.datadoghq.com/account/settings#api
+[4]: https://app.datadoghq.com/organization-settings/api-keys
 [5]: https://auth0.com/docs/logs/references/log-event-type-codes
 [6]: https://www.datadoghq.com/blog/monitor-auth0-with-datadog/
